@@ -1,0 +1,57 @@
+25-Sep-2018 19:28:47.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.34
+25-Sep-2018 19:28:47.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 4 2018 22:28:22 UTC
+25-Sep-2018 19:28:47.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.34.0
+25-Sep-2018 19:28:47.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-Sep-2018 19:28:47.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Sep-2018 19:28:47.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Sep-2018 19:28:47.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre-9.0.4
+25-Sep-2018 19:28:47.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           9.0.4+11
+25-Sep-2018 19:28:47.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Sep-2018 19:28:47.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Karina\infra\apache-tomcat-8.5.34-windows-x64\apache-tomcat-8.5.34
+25-Sep-2018 19:28:47.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Karina\infra\apache-tomcat-8.5.34-windows-x64\apache-tomcat-8.5.34
+25-Sep-2018 19:28:47.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+25-Sep-2018 19:28:47.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+25-Sep-2018 19:28:47.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+25-Sep-2018 19:28:47.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Karina\infra\apache-tomcat-8.5.34-windows-x64\apache-tomcat-8.5.34\conf\logging.properties
+25-Sep-2018 19:28:47.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Sep-2018 19:28:47.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+25-Sep-2018 19:28:47.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Sep-2018 19:28:47.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+25-Sep-2018 19:28:47.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Karina\infra\apache-tomcat-8.5.34-windows-x64\apache-tomcat-8.5.34
+25-Sep-2018 19:28:47.774 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Karina\infra\apache-tomcat-8.5.34-windows-x64\apache-tomcat-8.5.34
+25-Sep-2018 19:28:47.775 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Karina\infra\apache-tomcat-8.5.34-windows-x64\apache-tomcat-8.5.34\temp
+25-Sep-2018 19:28:47.775 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+25-Sep-2018 19:28:47.776 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+25-Sep-2018 19:28:47.779 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+25-Sep-2018 19:28:48.453 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+25-Sep-2018 19:28:48.532 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Sep-2018 19:28:48.774 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Sep-2018 19:28:48.786 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Sep-2018 19:28:48.791 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Sep-2018 19:28:48.795 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1938 ms
+25-Sep-2018 19:28:48.920 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Sep-2018 19:28:48.922 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.34
+25-Sep-2018 19:28:48.949 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Karina\infra\apache-tomcat-8.5.34-windows-x64\apache-tomcat-8.5.34\webapps\docs]
+25-Sep-2018 19:28:49.835 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [181] milliseconds.
+25-Sep-2018 19:28:49.877 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Karina\infra\apache-tomcat-8.5.34-windows-x64\apache-tomcat-8.5.34\webapps\docs] has finished in [928] ms
+25-Sep-2018 19:28:49.879 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Karina\infra\apache-tomcat-8.5.34-windows-x64\apache-tomcat-8.5.34\webapps\examples]
+25-Sep-2018 19:28:52.002 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Karina\infra\apache-tomcat-8.5.34-windows-x64\apache-tomcat-8.5.34\webapps\examples] has finished in [2,122] ms
+25-Sep-2018 19:28:52.003 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Karina\infra\apache-tomcat-8.5.34-windows-x64\apache-tomcat-8.5.34\webapps\HelloWorldServlet]
+25-Sep-2018 19:28:52.184 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Karina\infra\apache-tomcat-8.5.34-windows-x64\apache-tomcat-8.5.34\webapps\HelloWorldServlet] has finished in [181] ms
+25-Sep-2018 19:28:52.184 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Karina\infra\apache-tomcat-8.5.34-windows-x64\apache-tomcat-8.5.34\webapps\host-manager]
+25-Sep-2018 19:28:52.251 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Karina\infra\apache-tomcat-8.5.34-windows-x64\apache-tomcat-8.5.34\webapps\host-manager] has finished in [67] ms
+25-Sep-2018 19:28:52.252 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Karina\infra\apache-tomcat-8.5.34-windows-x64\apache-tomcat-8.5.34\webapps\manager]
+25-Sep-2018 19:28:52.321 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Karina\infra\apache-tomcat-8.5.34-windows-x64\apache-tomcat-8.5.34\webapps\manager] has finished in [69] ms
+25-Sep-2018 19:28:52.322 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Karina\infra\apache-tomcat-8.5.34-windows-x64\apache-tomcat-8.5.34\webapps\ROOT]
+25-Sep-2018 19:28:52.386 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Karina\infra\apache-tomcat-8.5.34-windows-x64\apache-tomcat-8.5.34\webapps\ROOT] has finished in [64] ms
+25-Sep-2018 19:28:52.397 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Sep-2018 19:28:52.419 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+25-Sep-2018 19:28:52.424 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3627 ms
+25-Sep-2018 19:35:08.124 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Sep-2018 19:35:08.126 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Sep-2018 19:35:08.285 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+25-Sep-2018 19:35:08.422 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Sep-2018 19:35:08.500 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Sep-2018 19:35:08.509 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+25-Sep-2018 19:35:08.514 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Sep-2018 19:35:08.515 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
