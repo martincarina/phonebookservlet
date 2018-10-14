@@ -32,7 +32,6 @@
         <tr>
             <th>
                 <label class="select-all-label">
-                    <!---                  <input type="checkbox" onclick="toggle(this);" title="Выбрать"/> -->
                     <input type="checkbox" data-bind="checked: $data.selectAll" title="Выбрать"/>
                 </label>
             </th>
@@ -60,16 +59,6 @@
         </tr>
         </tbody>
     </table>
-
-    <!---  <script type="text/javascript" src="js/libs/knockout-latest.js"></script>
-       <script type="text/javascript">
-           var viewModel = {
-               deleteContact : function() {
-
-               }
-           };
-           ko.applyBindings(viewModel);
-       </script>-->
 
     <button type="button" class="btn btn-primary" data-bind="click: $root.deleteSelectedContact">Удалить выбранные
     </button>

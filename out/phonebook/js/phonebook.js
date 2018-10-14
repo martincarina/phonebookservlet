@@ -150,17 +150,6 @@ function PhoneBookModel() {
         self.validation(false);
     };
 
-    /*   self.deleteContact = function(contact){
-    //       alert("Удаление!");
-           var content = "Вы уверены, что хотите удалить контакт:\r\n" + contactToString(contact) + "?";
-           openDeleteDialog("Удалить контакт", content,
-               function () {
-                   self.rows.remove(contact);
-               }
-           )
-       }*/
-
-
     self.deleteContact = function (contact) {
         var id = [contact.id];
         var content = "Вы уверены, что хотите удалить контакт:\r\n" + contactToString(contact) + "?";
@@ -168,20 +157,11 @@ function PhoneBookModel() {
             function () {
                 $.ajax({
                     type: "POST",
-                    url: "/phonebook/removeSelected",
- //                   url: "/phonebook/remove",
-//                    data: JSON.stringify(contact)
-//                    data: {"id": contact.id}
+                    url: "/phonebook/remove",
                     data: {"ids": id}
                 }).done(function () {
                     var contentAlert = "Контакт \r\n" + contactToString(contact) + " успешно удалён";
                     openAlert("Удаление", contentAlert);
-                    //                 self.serverValidation(false);
-                    //                self.rows.remove(contact);
- /*               }).fail(function (ajaxRequest) {
-                    var contactValidation = $.parseJSON(ajaxRequest.responseText);
-                    self.serverError(contactValidation.error);
-                    self.serverValidation(true);*/
                 }).always(function () {
                     $.ajax({
                         type: "GET",
@@ -189,8 +169,6 @@ function PhoneBookModel() {
                         success: self.getAllSuccessCallback
                     });
                 });
-
-                //              self.rows.remove(contact);
             }
         )
     };
@@ -213,8 +191,7 @@ function PhoneBookModel() {
             function () {
                 $.ajax({
                     type: "POST",
-                    url: "/phonebook/removeSelected",
-     //               data: JSON.stringify(checkedContactList)
+                    url: "/phonebook/remove",
                     data: {"ids": checkedId}
                 }).done(function () {
                     var contentAlert;
@@ -225,10 +202,6 @@ function PhoneBookModel() {
                     }
                     openAlert("Удаление", contentAlert);
                     self.selectAll(false);
- /*               }).fail(function (ajaxRequest) {
-                    var contactValidation = $.parseJSON(ajaxRequest.responseText);
-                    self.serverError(contactValidation.error);
-                    self.serverValidation(true);*/
                 }).always(function () {
                     $.ajax({
                         type: "GET",

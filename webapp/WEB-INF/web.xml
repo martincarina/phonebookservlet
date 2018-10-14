@@ -15,14 +15,9 @@
     <servlet-class>ru.academits.servlet.AddContactServlet</servlet-class>
   </servlet>
 
-  <servlet>
-    <servlet-name>RemoveContactServlet</servlet-name>
-    <servlet-class>ru.academits.servlet.RemoveContactServlet</servlet-class>
-  </servlet>
-
     <servlet>
-        <servlet-name>RemoveSelectedContactsServlet</servlet-name>
-        <servlet-class>ru.academits.servlet.RemoveSelectedContactsServlet</servlet-class>
+        <servlet-name>RemoveContactsServlet</servlet-name>
+        <servlet-class>ru.academits.servlet.RemoveContactsServlet</servlet-class>
     </servlet>
 
   <servlet-mapping>
@@ -35,14 +30,9 @@
   <url-pattern>/phonebook/add</url-pattern>
 </servlet-mapping>
 
-  <servlet-mapping>
-    <servlet-name>RemoveContactServlet</servlet-name>
-    <url-pattern>/phonebook/remove</url-pattern>
-  </servlet-mapping>
-
     <servlet-mapping>
-        <servlet-name>RemoveSelectedContactsServlet</servlet-name>
-        <url-pattern>/phonebook/removeSelected</url-pattern>
+        <servlet-name>RemoveContactsServlet</servlet-name>
+        <url-pattern>/phonebook/remove</url-pattern>
     </servlet-mapping>
 
 </web-app>
